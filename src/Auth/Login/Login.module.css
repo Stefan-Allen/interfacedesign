@@ -1,0 +1,103 @@
+.AppWrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Cascadia Code";
+}
+
+.MainContainerStyle {
+    background-color: #f0f2f5;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContainer {
+    background-color: #ffffff;
+    width: 20%;
+    transform: translate(60%, -10vh);
+    height: 35vh;
+    margin-top: 5%;
+    border-radius: 2vh;
+}
+
+.TxtBoxStyle {
+    margin-left: 2%;
+    font-size: 3vh;
+    padding-left: 1vh;
+}
+
+
+.TxtBox1 {
+    margin-top: 2vh;
+    width: 95%;
+    height: 5vh;
+    border: 1px solid #dddfe2;
+    border-radius: 1vh;
+    padding-left: 1vh;
+    font-size: 1.5vh;
+    font-family: "Cascadia Code";
+}
+
+.TxtBox2 {
+    margin-top: 2vh;
+    width: 95%;
+    height: 5vh;
+    border: 1px solid #dddfe2;
+    border-radius: 1vh;
+    padding-left: 1vh;
+    font-size: 1.5vh;
+    font-family: "Cascadia Code";
+}
+
+.LoginButton {
+    background-color: #1877f2;
+    color: #fff;
+    padding: 12.5px 20px;
+    border: none;
+    font-family: "Cascadia Code";
+
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+    font-size: 2vh;
+    font-weight: bold;
+    width: 95%;
+}
+
+.ForgotPassword {
+    font-size: 1.5vh;
+    color: #1877f2;
+    margin-left: 11vh;
+}
+
+.Underline {
+    background-color: #dddfe2;
+    margin-top: 1vh;
+    height: 1px;
+    width: 95%;
+
+}
+
+.Register {
+    background-color: #42b72a;
+    color: #fff;
+    padding: 12.5px 20px;
+    border: none;
+
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+    font-size: 1.75vh;
+    font-weight: bold;
+    width: 60%;
+    margin-left: 6.5vh;
+    font-family: "Cascadia Code";
+}
+
+.Register:hover {
+    background-color: #36a420;
+}

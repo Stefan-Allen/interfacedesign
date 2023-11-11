@@ -1,7 +1,9 @@
+import Login from "@/Auth/Login/Login";
+
 export default function Home() {
-  return (
-    <main>
-        <div>Hello</div>
-    </main>
-  )
+    return (
+        <main>
+            <Login/>
+        </main>
+    )
 }
