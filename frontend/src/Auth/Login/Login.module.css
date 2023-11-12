@@ -1,0 +1,122 @@
+.AppWrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Cascadia Code";
+}
+
+.MainContainerStyle {
+    background-image: url('https://cdn.discordapp.com/attachments/996911409692688414/1172885546381606942/image.png?ex=6561f1c9&is=654f7cc9&hm=740bfb5a89ded394103aeaab19a9e01b5565ceded56ba6b6b4a71d0ac157d160&'); /* Replace with your image URL */
+    background-size: cover; /* Adjust as needed */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-30%, 0vh);
+}
+
+.Logo {
+    color: #0044ff;
+    font-size: 6vh;
+    margin-top: -10vh; /* Adjust as needed */
+    font-weight: bold;
+}
+
+.TextUnderLogo {
+    color: #fff;
+    font-size: 4vh;
+    font-weight: lighter;
+    margin-top: 2vh; /* Reset margin-top to 0 */
+    align-self: flex-start; /* Align the text to the left within the container */
+}
+
+
+
+
+.MainContainer {
+    background-color: #ffffff;
+    width: 20%;
+    transform: translate(10%, -10vh);
+    height: 35vh;
+    margin-top: 5%;
+    border-radius: 2vh;
+}
+
+.TxtBoxStyle {
+    margin-left: 2%;
+    font-size: 3vh;
+    padding-left: 1vh;
+}
+
+.TxtBox1,
+.TxtBox2 {
+    margin-top: 2vh;
+    width: 95%;
+    height: 5vh;
+    border: 1px solid #dddfe2;
+    border-radius: 1vh;
+    padding-left: 1vh;
+    font-size: 1.5vh;
+    font-family: "Cascadia Code";
+}
+
+.TxtBox1:focus,
+.TxtBox2:focus {
+    outline: none;
+}
+
+.LoginButton, .Register {
+    padding: 12.5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: "Cascadia Code";
+}
+
+.LoginButton {
+    background-color: #0044ff;
+    color: #fff;
+    font-size: 2vh;
+    font-weight: bold;
+    width: 95%;
+    margin-top: 1vh;
+}
+
+.LoginButton:hover {
+    background-color: #3b2fb9;
+
+}
+
+.ForgotPassword {
+    font-size: 1.5vh;
+    color: #0044ff;
+    margin-left: 11vh;
+}
+
+.Underline {
+    background-color: #dddfe2;
+    margin-top: 1vh;
+    height: 1px;
+    width: 95%;
+}
+
+.Register {
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 1.75vh;
+    font-weight: bold;
+    width: 60%;
+    margin-left: 6.5vh;
+    margin-top: 2.5vh;
+}
+
+.Register:hover {
+    background-color: #36a420;
+}
